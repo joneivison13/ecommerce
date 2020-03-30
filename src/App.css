@@ -1,0 +1,151 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.azul{
+  background-color: rgb(11, 11, 58);
+}
+
+.banner{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.main{
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 40px;
+}
+
+.promocao{
+  border-radius: 10px;
+  width: 85%;
+  height: 500px;
+  background-color: white;
+  margin: 10px auto;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.fake-img{
+  display: inline-block;
+  width: 300px;
+  height: 330px;
+}
+
+.product-name{
+  font-weight: bolder;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.price{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.promo1{
+  display: inline-block;
+  padding: 20px;
+}
+
+.promo2{
+  display: inline-block;
+}
+
+.fake2-img{
+  display: inline-block;
+  width: 360px;
+  height: 150px;
+  margin: 10px;
+  text-align: center;
+}
+
+p{
+  color: black;
+}
+
+.product-mini{
+  float: right;
+}
+
+.promo3{
+  display: flex;
+  flex-direction: row;
+  float: right;
+  height: 180px;
+  width: 600px;
+  top: 0;
+  margin-top: 0;
+}
+
+.product{
+  /* background-image: linear-gradient(to top, white, black); */
+  height: 200px;
+}
+
+.product-body{
+  float: left;
+  margin: 10px 30px;
+  background-color: white;
+}
+
+.img-body{
+  width: 210px;
+  height: 270px;
+}
+.footer{
+  height: 300px;
+  background-color: gray;
+  clear: both;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li{
+  list-style: none;
+}
+
+a, a:hover{
+  color: black;
+  list-style: none;
+}
+.sub-footer{
+  border-top: 1px solid rgb(59, 59, 59);
+  background-color: rgb(61, 61, 61);
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.breve{
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  width: 450px;
+}
+
+.redes-sociais{
+  display: block;
+  /* margin-left:20%; */
+  margin-top: 20px;
+  width: 100%;
+  max-width: 280px;
+  float: left;
+
+}
+
+.redes-sociais h2{
+  text-align: center;
+}
+
+.docs{
+  max-width: 300px;
+  display: inline;
+}
