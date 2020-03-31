@@ -9,30 +9,36 @@
 }
 
 .banner{
+  display: block;
   width: 70%;
   margin: auto;
-  display: flex;
-  align-items: center;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .main{
+  width: 100%;
+  display: block;
   background-color: rgb(0, 0, 0);
   padding-bottom: 40px;
 }
 
 .promocao{
   border-radius: 10px;
-  width: 85%;
-  height: 500px;
+  max-width: 90%; 
   background-color: white;
-  margin: 10px auto;
-  margin-bottom: 0;
+  margin:0 auto;
   padding-bottom: 20px;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .fake-img{
   display: inline-block;
-  width: 300px;
+  
   height: 330px;
 }
 
@@ -50,6 +56,8 @@
 .promo1{
   display: inline-block;
   padding: 20px;
+  width: 300px;
+  text-align: center;
 }
 
 .promo2{
@@ -83,14 +91,19 @@ p{
 }
 
 .product{
-  /* background-image: linear-gradient(to top, white, black); */
-  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px 10%;
 }
 
 .product-body{
-  float: left;
-  margin: 10px 30px;
   background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 250px;
 }
 
 .img-body{
@@ -133,7 +146,7 @@ a, a:hover{
 
 .redes-sociais{
   display: block;
-  /* margin-left:20%; */
+  margin-left:30px;
   margin-top: 20px;
   width: 100%;
   max-width: 280px;
@@ -148,4 +161,5 @@ a, a:hover{
 .docs{
   max-width: 300px;
   display: inline;
+  margin-left:30px;
 }

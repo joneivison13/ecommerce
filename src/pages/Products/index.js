@@ -17,10 +17,9 @@ export default class Product extends Component {
         
         <Main />
 
-        <div className="container d-block">
-          <div className="product d-block">
+          <div className="product">
             <a href="/em-breve">
-              <span className="product-body d-block">
+              <span className="product-body ">
                 <img className="img-body" src={product1} alt="" />
 
                 <p className="product-name">Produto</p>
@@ -87,7 +86,6 @@ export default class Product extends Component {
               </span>
             </a>
           </div>
-        </div>
 
       <Footer />
       </>
