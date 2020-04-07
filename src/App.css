@@ -266,6 +266,11 @@ a, a:hover{
   text-align: center;
   color: rgb(253, 95, 22);
 }
+@media (max-width){
+  .btn{
+    width: 20%;
+  }
+}
 
 @media (max-width:550px){
   .produto-map{
@@ -279,5 +284,11 @@ a, a:hover{
   .foooter .docs {
     display: block;
     margin-bottom: 80px;
+  }
+  .banner{
+    height: 180px;
+    margin-top: 50px;
+    padding: 0;
+    width: 90%;
   }
 }

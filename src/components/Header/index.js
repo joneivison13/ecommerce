@@ -60,13 +60,13 @@ export default function Header() {
               </a>
             </div>
           </li>
-          <li className="nav-item mx-3 btn btn-success">
-            <a className="darj" href="/create">
+          <li className="nav-item mx-3 my-1 btn btn-success">
+            <a className="dark" href="/create">
             Crie sua conta
               
             </a>
           </li>
-          <li className="nav-item btn btn-primary mx-3">
+          <li className="nav-item my-1 btn btn-primary mx-3">
             <a className="dark" href="/cadastro">
               Login
             </a>
