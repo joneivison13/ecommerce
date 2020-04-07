@@ -29,6 +29,11 @@ export default function Header() {
               Contato
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/user">
+              Sua Conta
+            </a>
+          </li>
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
@@ -54,6 +59,17 @@ export default function Header() {
                 Todos os produtos
               </a>
             </div>
+          </li>
+          <li className="nav-item mx-3 btn btn-success">
+            <a className="darj" href="/create">
+            Crie sua conta
+              
+            </a>
+          </li>
+          <li className="nav-item btn btn-primary mx-3">
+            <a className="dark" href="/cadastro">
+              Login
+            </a>
           </li>
         </ul>
       </div>

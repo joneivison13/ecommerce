@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {FaGithub, FaFacebook, FaWhatsapp} from 'react-icons/fa';
-import api from '../../services/api';
 
 export default class Footer extends Component {
 
