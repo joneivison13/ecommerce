@@ -5,6 +5,7 @@
 /.vscode
 /.pnp
 .pnp.js
+/ane-loja
 
 # testing
 /coverage

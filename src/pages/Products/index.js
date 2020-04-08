@@ -1,32 +1,34 @@
-import React, { Component } from "react";
-import api from '../../services/api'
+import React from "react";
+
+import {Link} from 'react-router-dom'
+
+import api from "../../services/api";
 import Main from "../Main";
 import Header from "../../components/Header/";
 import Footer from "../../components/Footer/";
 
-export default class Product extends Component {
-  render() {
-    return (
-      <>
-        <Header />
-        
-        <Main />
+export default function Product() {
 
-    <p className="produto-map">{api.map(product => (
+  return (
+    <>
+      <Header />
+
+      <Main />
+
+      <div className="produto-map">{api.map(product => (
       <div className="product" key={product.id}>
-        <a href="/em-breve">
+        <Link to={`/product/${product.id}`}>
       <span className="">
         <img className="img-body" src={product.thumbnail} alt="" />
 
       <p className="product-name">{product.name}</p>
       <p className="price">{product.price}</p>
       </span>
-    </a>
+    </Link>
       </div>
-    ))}</p>
+    ))}</div>
 
       <Footer />
-      </>
-    );
-  }
+    </>
+  );
 }

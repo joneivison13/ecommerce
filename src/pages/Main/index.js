@@ -15,8 +15,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function Main() {
   return (
     <div className="preto">
-      <img src={Back} className="banner" alt="Super Back Week" />
-      <Carousel width="50" infiniteLoop={true} showThumbs={false} showArrows={true} autoPlay={true}>
+      <img src={Back} className="banner" alt="" />
+      <Carousel infiniteLoop={true} showThumbs={false} showArrows={true} autoPlay={true}>
         <div className="caroussel">
           <img
             src={Product2}

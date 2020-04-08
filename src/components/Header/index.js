@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <nav className="navbar fixed-top navbar-expand-md navbar-dark azul">
-      <a className="navbar-brand" href="/em-breve">
+      <a className="navbar-brand" href="/">
         Jhonis
       </a>
       <button
@@ -59,17 +59,6 @@ export default function Header() {
                 Todos os produtos
               </a>
             </div>
-          </li>
-          <li className="nav-item mx-3 my-1 btn btn-success">
-            <a className="dark" href="/create">
-            Crie sua conta
-              
-            </a>
-          </li>
-          <li className="nav-item my-1 btn btn-primary mx-3">
-            <a className="dark" href="/cadastro">
-              Login
-            </a>
           </li>
         </ul>
       </div>
