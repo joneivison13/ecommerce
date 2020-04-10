@@ -34,13 +34,14 @@ body{
   padding: 25px 0;
   border: 2px solid black;
   border-radius: 10px;
-  margin: 30px;
+  margin: 60px 100px;
+  
 }
 .caroussel img {
-  max-width: 350px ;
-  width: 350px;
-  height: 450px;
-  max-height: 450px;
+  max-width: 300px ;
+  width: 300px;
+  height: 400px;
+  max-height: 400px;
   padding-top: 50px;
 }
 
@@ -217,18 +218,6 @@ li{
 .button-login{
   margin: 0 20px;
 }
-@media(max-width:760px){
-  .button-login{
-    margin: 10px auto;
-    max-width: 40%;
-    display: block;
-  } 
-  .login{
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 @media(max-width:920px){
   .product-group{
     display: block;
@@ -239,14 +228,14 @@ li{
   .product-group img{
     margin-bottom: 0;
     width: 40%;
-    padding: 0;
+    padding: 30px;
   }
   .sale{
     width: 80%;
     margin: 0 auto;
   }
   form{
-    margin: 50px auto;
+    margin: 20px auto;
     flex-direction: column;
     display: block;
     width: 100%;
@@ -258,6 +247,33 @@ li{
   .product-flex{
     margin-top: 0px;
     padding: 0;
+  }
+  .p-frete{
+    margin: 22px;
+    font-weight: 590;
+    margin-bottom: 0;
+  }
+  .caroussel{
+    margin:30px;
+  }
+  .caroussel img{
+    width:350px;
+    max-width: 350px;
+    height: 300px;
+    max-height: 300px;
+    padding: 50px;
+  }
+}
+
+@media(max-width:760px){
+  .button-login{
+    margin: 10px auto;
+    max-width: 40%;
+    display: block;
+  } 
+  .login{
+    display: flex;
+    flex-direction: column;
   }
 }
 
