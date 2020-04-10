@@ -131,7 +131,7 @@ form{
 
 form input{
   font-size: 18px;
-  padding: 5px;
+  padding: 0 10px;
   border: none;
   border-bottom: 1px solid black;
   outline: none;
@@ -210,6 +210,24 @@ li{
   font-weight: 700;
   color: rgb(255, 255, 255);
 }
+.login{
+  display: flex;
+  flex-direction: row;
+}
+.button-login{
+  margin: 0 20px;
+}
+@media(max-width:760px){
+  .button-login{
+    margin: 10px auto;
+    max-width: 40%;
+    display: block;
+  } 
+  .login{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 @media(max-width:920px){
   .product-group{
@@ -217,6 +235,11 @@ li{
     margin: 0 auto;
     text-align: center;
     margin-top: 70px;
+  }
+  .product-group img{
+    margin-bottom: 0;
+    width: 40%;
+    padding: 0;
   }
   .sale{
     width: 80%;
@@ -226,9 +249,15 @@ li{
     margin: 50px auto;
     flex-direction: column;
     display: block;
+    width: 100%;
+    max-width: 100%;
   }
   form input, form button{
     width: 70%;
+  }
+  .product-flex{
+    margin-top: 0px;
+    padding: 0;
   }
 }
 
@@ -236,6 +265,12 @@ li{
   .produto-map{
     margin: 0 20%;;
     align-items: center;
+  }
+  .product-group img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
   .footer{
     display: flex;

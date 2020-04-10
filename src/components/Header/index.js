@@ -1,5 +1,7 @@
 import React from "react";
 
+import api from '../../services/api'
+
 export default function Header() {
   return (
     <nav className="navbar fixed-top navbar-expand-md navbar-dark azul">
@@ -29,11 +31,6 @@ export default function Header() {
               Contato
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/user">
-              Sua Conta
-            </a>
-          </li>
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
@@ -60,6 +57,19 @@ export default function Header() {
               </a>
             </div>
           </li>
+          <div className="login">
+
+            <li className="nav-item">
+              <a className="button-login nav-link btn btn-primary" href="/em-breve">
+                Criar Conta
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="button-login nav-link btn btn-success" href="/em-breve">
+                Logar
+              </a>
+            </li>
+          </div>
         </ul>
       </div>
     </nav>

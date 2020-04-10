@@ -20,11 +20,12 @@ export default class Purchase extends Component {
     this.setState({ product: data });
   }
 
-  handleSubmit(e) {
-    e.preventDefault();
-    console.log(this.state.frete)
-  }
+  
   render() {
+    const handleSubmit = e => {
+      e.preventDefault();
+      alert(this.state.frete)
+    }
     return (
       <>
         <Header />
@@ -49,9 +50,9 @@ export default class Purchase extends Component {
             <p className="p-frete">
               Calcule o frete e o prazo de entrega estimados para sua região.
             </p>
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={handleSubmit}>
               <input
-                onChange={(e) => this.setState({ frete: e.target.value })}
+                onChange={e => this.setState({ frete: e.target.value })}
                 type="text"
                 name="frete"
                 placeholder="Digite seu CEP"
